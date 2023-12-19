@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.navbar{
+    background-color: transparent!important;
+}
+
+.img-hero{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.custom-card {
+    width: 395px;
+    
+}
+
+.fale-cmg-hero{
+    color: var(--Black-Olive---Dark-Pattern, #2A2C24);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 21px */
+    letter-spacing: -0.63px;
+    padding-left: 25px!important;
+    padding-right: 25px!important;
+}
+
+.header{
+    height: 100vh;
+    background-image: url(../assets/imgs/bg-hero.png);
+}
+
+.h2-header{
+    color: var(--Black-Olive---Dark-Pattern, #2A2C24);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 31.2px */
+    letter-spacing: 2.86px;
+    text-transform: uppercase;
+}
+
+.unisplash4{
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 768px){
+    .unisplash4{
+        display: block;
+        position: inherit;
+    }
+}
+
+.servicos-bg-text{
+    position: absolute;
+    width: 759px;
+    height: 501px;
+    left: -67px;
+    top: -31px;
+    background: linear-gradient(87deg, #CCC -13.15%, rgba(242, 242, 242, 0.00) 84%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: plus-darker;
+    font-family: Inter;
+    font-size: 222.704px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: -3;
+}
+
+.h1-header{
+    color: var(--Black-Olive---Dark-Pattern, #2A2C24);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 92.4px */
+    letter-spacing: -3.78px;
+}
+
+.text-lg{
+    font-size: 4.4em;
+}
+
+.p-oquefaco{
+    color: var(--Black-Olive---Dark-Pattern, #2A2C24);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 19.2px */
+    letter-spacing: -0.16px;
+}
+
+.footer{
+    padding: 60px;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="pt">
+    <head>
+        <link rel="canonical" href="#" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MF Inspeções</title>
+        <meta name="language" content="Português" /> <!-- Linguagem Padrão -->
+        <meta name="theme-color" content="#020312" /> <!-- Cor para Dispositivos Móveis -->
+        <meta name="contact" content="Email de Contato" /> <!-- Email -->
+        <meta name="subject" content="" /> <!-- Assunto -->
+        <meta name="description" content="" /> <!-- Descrição -->
+        <meta name="author" content="Agência Karvz" /> <!-- Autor -->
+        <link rel="icon" type="image/x-icon" href="assets/imgs/favicon.png"> <!-- Favicon -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Viewport Responsivo -->
+        <link rel="stylesheet" href="css/main.min.css"> <!-- CSS Bootstrap Padrão -->
+        <link rel="stylesheet" href="css/desenvolvimento-web.min.css"> <!-- CSS Específico -->
+        <link rel="stylesheet" href="css/cookiealert.min.css"> <!-- CSS Cookies -->
+        <link href='css/boxicons.min.css' rel='stylesheet'> <!-- CSS Ícones -->
+        <link rel="stylesheet" href="css/anicollection.min.css"> <!-- CSS Animações -->
+        <link type="text/css" rel="stylesheet" href="css/lightgallery-bundle.css" /> <!-- CSS Galeria de Imagens -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+          <div class="alert text-center cookiealert" role="alert">
+            <b>Esse site usa Cookies!</b> &#x1F36A; Armazenamos dados temporariamente para melhorar a sua experiência. Saiba mais em <a href="https://www.gov.br/anpd/pt-br/documentos-e-publicacoes/guia-orientativo-cookies-e-protecao-de-dados-pessoais.pdf" target="_blank">Governo do Brasil</a>
+        
+            <button type="button" class="btn btn-primary btn-sm acceptcookies">
+                Eu aceito
+            </button>
+        </div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary pt-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand ms-5" style="margin-right: 120px;" href="#"><b>MF</b> Inspeções</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse " id="navbarScroll">
+                        <ul class="navbar-nav">
+                            <li class="nav-item fw-bold" style="margin-right: 20px;">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item fw-bold" style="margin-right: 20px;">
+                                <a class="nav-link active" aria-current="page" href="#QuemSomos">Quem Somos</a>
+                            </li>
+                            <li class="nav-item fw-bold" style="margin-right: 20px;">
+                                <a class="nav-link active" aria-current="page" href="#Servicos">Serviços</a>
+                            </li>
+                            <li class="nav-item fw-bold" style="margin-right: 20px;">
+                                <a class="nav-link active" aria-current="page" href="#Exp">Experiência</a>
+                            </li>
+                            <li class="nav-item fw-bold" style="margin-right: 20px;">
+                                <a class="nav-link active" aria-current="page" href="#SaibaMais">Saiba Mais</a>
+                            </li>
+                            <li class="nav-item">
+       
+                               
+                                <a class="nav-link active btn btn-primary fale-cmg-hero" aria-current="page" href="#"> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="me-1" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                    <g clip-path="url(#clip0_4_109)">
+                                      <path d="M2.08768 21.9166L3.49601 16.7416C2.56803 15.1509 2.08049 13.3416 2.08351 11.5C2.08351 5.74685 6.74705 1.08331 12.5002 1.08331C18.2533 1.08331 22.9168 5.74685 22.9168 11.5C22.9168 17.2531 18.2533 21.9166 12.5002 21.9166C10.6593 21.9196 8.85086 21.4324 7.26059 20.5052L2.08768 21.9166ZM8.7408 6.61248C8.60628 6.62083 8.47484 6.65626 8.35434 6.71665C8.24134 6.78064 8.13819 6.86063 8.04809 6.95415C7.92309 7.07185 7.85226 7.17394 7.77622 7.2729C7.39123 7.77393 7.18414 8.38896 7.18768 9.02081C7.18976 9.53123 7.32309 10.0281 7.53143 10.4927C7.95747 11.4323 8.65851 12.4271 9.58455 13.3489C9.80747 13.5708 10.0252 13.7937 10.2596 14.001C11.4089 15.013 12.7786 15.7427 14.2596 16.1323L14.8523 16.2229C15.045 16.2333 15.2377 16.2187 15.4314 16.2094C15.7348 16.1937 16.031 16.1115 16.2991 15.9687C16.4721 15.8771 16.5533 15.8312 16.6981 15.7396C16.6981 15.7396 16.7429 15.7104 16.8283 15.6458C16.9689 15.5416 17.0554 15.4677 17.1721 15.3458C17.2585 15.2562 17.3335 15.151 17.3908 15.0312C17.4721 14.8614 17.5533 14.5375 17.5866 14.2677C17.6116 14.0614 17.6043 13.9489 17.6012 13.8791C17.5971 13.7677 17.5043 13.6521 17.4033 13.6031L16.7971 13.3312C16.7971 13.3312 15.8908 12.9364 15.3377 12.6844C15.2794 12.6589 15.2169 12.6445 15.1533 12.6416C15.082 12.6343 15.01 12.6423 14.9421 12.6652C14.8742 12.688 14.8119 12.7251 14.7596 12.7739V12.7719C14.7543 12.7719 14.6846 12.8312 13.9314 13.7437C13.8882 13.8018 13.8287 13.8457 13.7604 13.8698C13.6921 13.8939 13.6182 13.8972 13.5481 13.8791C13.4802 13.861 13.4137 13.838 13.3491 13.8104C13.22 13.7562 13.1752 13.7354 13.0866 13.6969L13.0814 13.6948C12.4855 13.4346 11.9337 13.0832 11.446 12.6531C11.3148 12.5385 11.1929 12.4135 11.0679 12.2927C10.6581 11.9002 10.3009 11.4562 10.0054 10.9719L9.94393 10.8729C9.89978 10.8064 9.86409 10.7347 9.83768 10.6594C9.79809 10.5062 9.90122 10.3833 9.90122 10.3833C9.90122 10.3833 10.1543 10.1062 10.2721 9.95623C10.3701 9.83156 10.4615 9.70187 10.546 9.56769C10.6689 9.36977 10.7075 9.16665 10.6429 9.00935C10.3512 8.29685 10.0491 7.58748 9.73872 6.88331C9.67726 6.74373 9.49497 6.64373 9.32934 6.62394C9.27309 6.61769 9.21684 6.61144 9.16059 6.60727C9.0207 6.60032 8.88052 6.60275 8.7408 6.61248Z" fill="#2A2C24"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_4_109">
+                                        <rect width="25" height="25" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                                  Fale Comigo</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <img src="assets/imgs/MF Inspeções sem fundo preto.png" class="img-fluid img-hero" alt="">
+
+                        <h2 class="h2-header pb-3">Serviços de Qualidade com Eficiência Garantida</h2>
+                        <h1 class="h1-header">Excelência em Inspeção Eletrica, Instrumentação, Atmosferas Explosivas e Telecomunicações</h1>
+
+                        <div class="d-flex justify-content-center align-items-center">
+                        <a href="#" class="btn btn-primary px-4 fs-3 fw-bold my-5 me-4" style="text-transform: uppercase;">Conheça a Mf Inspeções</a>
+                        <a href="https://www.linkedin.com/in/marcelo-freixo-288284b1" class="fw-bold fs-2 text-black">Meu Linkedin</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <section class="transition bg-primary py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <h2 class="fw-bold" style="font-size: 50px;">Qualidade <br> Garantida</h2>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+                            Vivamus auctor tristique massa, ac eleifend velit congue at. Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas. Sed sit amet enim in purus suscipit finibus. Fusce pretium nisl in
+                            nibh dapibus, ac ultricies odio tempor. Proin malesuada volutpat risus, at
+                            aliquet nisi feugiat id</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" id="QuemSomos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4" style="position: relative;">
+
+                        <img src="./assets/imgs/unisplash4.png" class="img-fluid unisplash4" alt="">
+
+                    </div>
+
+                    <div class="col-md-8">
+                        <img src="/assets/imgs/unisplash3.png" class="img-fluid pe-2" alt="">
+                        <img src="/assets/imgs/unisplash5.png" class="img-fluid" alt="">
+
+                        <h3 class="text-lg fw-bold py-4">Quem Sou?</h3>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                            est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.
+                            <br><br>
+                            
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                            est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</p>
+                    </div>
+                </div>
+                <div class="row py-5">
+                    <div class="col-md-8">
+                        <h3 class="text-lg fw-bold pb-3">E o que faço?</h3>
+
+                        <p class="p-oquefaco mb-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            <br><br>
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                            <img src="/assets/imgs/unisplash2.png" class="img-fluid" alt="">
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="/assets/imgs/unisplash.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="servicos py-5 bg-primary" id="Servicos" style="position: relative; z-index: 2;">
+            <div class="container">
+                <div class="row">
+                    <span class="servicos-bg-text">Servi<br>ços</span>
+                    <div class="col text-center">
+                    
+                    <span class="badge rounded-pill text-bg-dark text-center px-4 fs-4">Serviços</span>
+                    <h2 class="fw-bold text-lg py-2">Veja os serviços que posso oferecer</h2>
+
+                    <p class="pt-5">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint<br>
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+
+             
+                        <div class="row g-4 d-flex justify-content-center align-items-center ">
+                            <div class="col-md d-flex justify-content-center align-items-center p-0">
+                                <div class="bg-dark rounded-3 p-3 d-flex justify-content-center align-items-center custom-card">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <div>
+                                            <img src="assets/imgs/electrical-worker.svg" alt="" class="w-100 img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-column text-white text-center justify-content-center ms-2">
+                                            <span class="fw-bold">
+                                                Serviço 1
+                                            </span>
+                                            <span>
+                                                Breve descrição
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                            <div class="col-md d-flex justify-content-center align-items-center p-0">
+                                <div class="bg-dark rounded-3 p-3 px-4 d-flex justify-content-center align-items-center custom-card">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <div>
+                                            <img src="assets/imgs/electrical-worker.svg" alt="" class="w-100 img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-column text-white text-center justify-content-center ms-2">
+                                            <span class="fw-bold">
+                                                Serviço 1
+                                            </span>
+                                            <span>
+                                                Breve descrição
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md d-flex justify-content-center align-items-center p-0">
+                                <div class="bg-dark rounded-3 p-3 px-4 d-flex justify-content-center align-items-center custom-card">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/imgs/electrical-worker.svg" alt="" class="w-100 img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-column text-white text-center justify-content-center ms-2">
+                                            <span class="fw-bold">
+                                                Serviço 1
+                                            </span>
+                                            <span>
+                                                Breve descrição
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md d-flex justify-content-center align-items-center p-0">
+                                <div class="bg-dark rounded-3 p-3 px-4 d-flex justify-content-center align-items-center custom-card">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/imgs/electrical-worker.svg" alt="" class="w-100 img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-column text-white text-center justify-content-center ms-2">
+                                            <span class="fw-bold">
+                                                Serviço 1
+                                            </span>
+                                            <span>
+                                                Breve descrição
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md d-flex justify-content-center align-items-center p-0">
+                                <div class="bg-dark rounded-3 p-3 px-4 d-flex justify-content-center align-items-center custom-card">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/imgs/electrical-worker.svg" alt="" class="w-100 img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-column text-white text-center justify-content-center ms-2">
+                                            <span class="fw-bold">
+                                                Serviço 1
+                                            </span>
+                                            <span>
+                                                Breve descrição
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md d-flex justify-content-center align-items-center p-0">
+                                <div class="bg-dark rounded-3 p-3 px-4 d-flex justify-content-center align-items-center custom-card">
+                                    <div class="d-flex">
+                                        <div>
+                                            <img src="assets/imgs/electrical-worker.svg" alt="" class="w-100 img-fluid">
+                                        </div>
+                                        <div class="d-flex flex-column text-white text-center justify-content-center ms-2">
+                                            <span class="fw-bold">
+                                                Serviço 1
+                                            </span>
+                                            <span>
+                                                Breve descrição
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                        
+                       
+        </section>
+        
+
+        <section class="experiencia py-5" id="Exp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="fw-bold text-center pb-5" style="font-size: 4rem;">Minha Experiência</h2>
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                    <img src="assets/imgs/Empresa 1 Image.png" class="img-fluid"  alt="" >
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                    <img src="assets/imgs/Empresa 1 Image.png" class="img-fluid" alt="">
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                                
+                              </div>
+                              <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+
+                                    <img src="assets/imgs/Empresa 1 Image.png" class="img-fluid" alt="">
+
+                                    </div>
+
+                                    <div class="col-md-6">
+
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        <br><br>
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                               
+
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        
+        <section class="transition bg-primary py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="fw-bold" style="font-size: 50px;">Serviços <br> Variados</h2>
+
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+                            Vivamus auctor tristique massa, ac eleifend velit congue at. Pellentesque
+                            habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas. Sed sit amet enim in purus suscipit finibus. Fusce pretium nisl in
+                            nibh dapibus, ac ultricies odio tempor. Proin malesuada volutpat risus, at
+                            aliquet nisi feugiat id</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq py-5" id="SaibaMais">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="fs-1 fw-bold text-center pb-5">Perguntas Frequentes</h2>
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Qual a importância das Inspeções?
+                                </button>
+                              </h2>
+                              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Você pode efetuar o pagamento no cartão de crédito em até 12x ou se preferir pode pagar à vista via pix ou boleto. lembrando que se o
+                                    pagamento for feito via cartão de crédito ou pix, o seu acesso ao conteúdo será liberado imediatamente após aprovação, se for feito via boleto,
+                                    em até 3 dias úteis. </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Posso contrata-lo para prestação de serviços?
+                                </button>
+                              </h2>
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Como funciona o serviço?
+                                </button>
+                              </h2>
+                              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-primary text-center footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        
+                        <span>&copy; <b>MF Inspeções.</b> Todos os direitos reservados. | Desenvolvido por <b><a href="https://www.karvz.com.br" class="text-black" target="_blank" style="text-decoration: none;">Karvz Solutions</a></b></span>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        
+        
+          
+    <script src="js/anijs-min.js"></script> <!-- JS Animações -->
+    <script src="js/anijs-helper-scrollreveal.min.js"></script> <!-- JS Helper de Animações -->
+    <script src="js/bootstrap.bundle.min.js"></script> <!-- JS Bootstrap Padrão -->
+    <script src="js/cookiealert.min.js"></script> <!-- JS Cookies -->
+    <script src="js/lightgallery.min.js"></script> <!-- JS Galeria de Imagens -->
+    
+    </body>
+</html>
